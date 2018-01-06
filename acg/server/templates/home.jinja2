@@ -1,0 +1,11 @@
+{% block content %}
+
+<h1>Adversarial Communication Game</h1>
+
+{% if request.user is none %}
+<a href="{{ request.route_url('login') }}">login</a>
+{% else %}
+<a href="{{ request.route_url('logout', _query={'next': request.url}) }}">logout</a>
+{% endif %}
+
+{% endblock content %}
