@@ -1,0 +1,9 @@
+{% block content %}
+
+<ul>
+{% for label_name, _label in label_dicts.items() %}
+<li>{{ label_name }} :: {{ _label.size }}</li>
+{% endfor %}
+</ul>
+
+{% endblock content %}

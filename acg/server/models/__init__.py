@@ -8,6 +8,7 @@ from sqlalchemy.orm import sessionmaker
 from .user import User  # flake8: noqa
 from .example import Example  # flake8: noqa
 from .flickr_query import FlickrQuery  # flake8: noqa
+from .flickr_query_set import FlickrQuerySet  # flake8: noqa
 from .label import Label  # flake8: noqa
 
 # run configure_mappers after defining all of the models to ensure

@@ -1,0 +1,31 @@
+# baboon,baboon animal
+# beaver,beaver animal -cat -dog -bird -insect -lizard
+# chimpanzee,chimpanzee animal
+# coati,coati animal -Schwenker -zoo -cat
+# cougar,cougar animal -people -bird -pet -jaguar -tiger
+# coyote,coyote animal -bird -cat -dog
+# dingo,dingo animal -cat -bird -insect -fish -snake -koala
+# dolphin,dolphin
+echidna,echidna animal -cat -dog -bird -nebulosa -platypus
+gibbon,gibbon animal -bird
+hare,hare animal -bird
+horse,horse animal
+hyena,hyena animal
+impala,impala animal
+koala,koala animal -dog -pet
+kob,kob animal -panda -cat
+manatee,manatee animal -bird -cat -dog -insect -florida -az -tiger -boat -deer -horse -pelican -snake -elephant -hippo-turtle
+mongoose,mongoose animal -cat -dog
+mouse,mouse animal
+ocelot,ocelot animal -bird
+porcupine,porcupine animal -fish -insect -bird -cat -dog -squirrel -people -wolf -tiger -gorilla -moose -baboon
+raccoon,raccoon animal -panda
+rat,rat animal -snake -dog -cat -bird -fish
+sloth,sloth animal -bear -cat -dog -moth -tiger -bird -fish -insect
+tamarin,tamarin animal
+tapir,tapir animal -tiger -insect -cat -frog -dog -horse -bird -fish -fox -tapire -schwenker
+wallaby,wallaby animal
+walrus,walrus animal -vehicle -text -people -dog -bird -cat -bear -whale -deer
+warthog,warthog animal
+whale,whale animal -horse -duck -cat -dog
+wombat,wombat animal -cat -dog -koala -bird

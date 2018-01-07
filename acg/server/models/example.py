@@ -1,10 +1,12 @@
+import datetime
 import uuid
 
 from sqlalchemy import (
     ForeignKey,
     Float,
     String,
-)
+    Integer)
+from sqlalchemy.dialects.mysql import DATETIME
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import relationship
 from sqlalchemy.schema import Column
@@ -52,10 +54,13 @@ class GUID(TypeDecorator):
 class Example(Base):
     __tablename__ = 'examples'
     id = Column(GUID(), primary_key=True, default=uuid.uuid4)
+    resource_id = Column(String(64))
+    created_at = Column(DATETIME(fsp=6), default=datetime.datetime.now)
 
-    label_name = Column(ForeignKey("labels.name"), nullable=True)
+    label_id = Column(ForeignKey("labels.id"), nullable=True)
     flickr_query_id = Column(ForeignKey("flickr_queries.id"), nullable=True)
 
+    rank = Column(Integer())
     url_m = Column(String(128))
     url_s = Column(String(128))
     url_z = Column(String(128))
@@ -65,7 +70,7 @@ class Example(Base):
     height_m = Column(Float())
     height_s = Column(Float())
     height_z = Column(Float())
-    flickr_data = Column(String(2048))
+    flickr_data = Column(String(4096))
 
     label = relationship("Label", backref="examples")
     flickr_query = relationship("FlickrQuery", backref="results")
