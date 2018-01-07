@@ -1,13 +1,14 @@
-from sqlalchemy import engine_from_config
-from sqlalchemy import event
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy.orm import configure_mappers
-from sqlalchemy.orm.session import Session
 import zope.sqlalchemy
+from sqlalchemy import engine_from_config
+from sqlalchemy.orm import configure_mappers
+from sqlalchemy.orm import sessionmaker
 
 # import or define all models here to ensure they are attached to the
 # Base.metadata prior to any initialization routines
 from .user import User  # flake8: noqa
+from .example import Example  # flake8: noqa
+from .flickr_query import FlickrQuery  # flake8: noqa
+from .label import Label  # flake8: noqa
 
 # run configure_mappers after defining all of the models to ensure
 # all relationships can be setup

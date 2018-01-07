@@ -10,7 +10,7 @@ setup(
     author='Andrew Drozdov',
     author_email='apd283@nyu.edu',
     url='',
-    keywords='adverserial communication game',
+    keywords='adversarial communication game',
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
@@ -18,6 +18,8 @@ setup(
         'paste.app_factory': [
             'myapp = server:main',
         ],
-        'console_scripts': []
+        'console_scripts': [
+            'acg_crawl = scripts.crawl:main',
+        ]
     }
 )

@@ -1,9 +1,13 @@
+transaction
 alembic==0.9.6
 bcrypt==3.1.4
 flickrapi==2.3.1
 gunicorn==19.7.1
 Jinja2==2.10
+mysql-connector==2.2.3
 pyramid==1.9.1
 requests==2.18.4
 six==1.11.0
 SQLAlchemy==1.2.0
+transaction==2.1.2
+zope.sqlalchemy==0.7.7
