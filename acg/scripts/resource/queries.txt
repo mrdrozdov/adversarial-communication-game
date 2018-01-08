@@ -1,11 +1,11 @@
-# baboon,baboon animal
-# beaver,beaver animal -cat -dog -bird -insect -lizard
-# chimpanzee,chimpanzee animal
-# coati,coati animal -Schwenker -zoo -cat
-# cougar,cougar animal -people -bird -pet -jaguar -tiger
-# coyote,coyote animal -bird -cat -dog
-# dingo,dingo animal -cat -bird -insect -fish -snake -koala
-# dolphin,dolphin
+baboon,baboon animal
+beaver,beaver animal -cat -dog -bird -insect -lizard
+chimpanzee,chimpanzee animal
+coati,coati animal -Schwenker -zoo -cat
+cougar,cougar animal -people -bird -pet -jaguar -tiger
+coyote,coyote animal -bird -cat -dog
+dingo,dingo animal -cat -bird -insect -fish -snake -koala
+dolphin,dolphin
 echidna,echidna animal -cat -dog -bird -nebulosa -platypus
 gibbon,gibbon animal -bird
 hare,hare animal -bird

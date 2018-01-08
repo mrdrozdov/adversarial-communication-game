@@ -9,6 +9,8 @@ from .user import User  # flake8: noqa
 from .example import Example  # flake8: noqa
 from .flickr_query import FlickrQuery  # flake8: noqa
 from .flickr_query_set import FlickrQuerySet  # flake8: noqa
+from .cf_example import CFExample  # flake8: noqa
+from .cf_example_set import CFExampleSet  # flake8: noqa
 from .label import Label  # flake8: noqa
 
 # run configure_mappers after defining all of the models to ensure

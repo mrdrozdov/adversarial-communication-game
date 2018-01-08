@@ -20,6 +20,7 @@ setup(
         ],
         'console_scripts': [
             'acg_crawl = scripts.crawl:main',
+            'acg_cf= scripts.crowdflower:main',
         ]
     }
 )
